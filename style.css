@@ -1,0 +1,106 @@
+@import url("reset.css");
+
+body{
+        font-family: "微軟正黑體";
+}
+.header01{
+    width: 1200px;
+    height: 1570px;
+    background-image: url("img/intro01.png");
+    margin: 0 auto;
+    padding-top: 1085px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header01 h1{
+    font-weight: bold;
+    font-size: 2em;
+    color: #56b8d6;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+
+.header01 h2{
+    color: yellow;
+    font-size: 3em;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.header02{
+    width: 1200px;
+    height: 2533px;
+    background-image: url("img/intro02.png");
+    margin: 0 auto;
+
+}
+
+.header03{
+    width: 1200px;
+    height: 881px;
+    background-image: url("img/intro03.png");
+    margin: 0 auto;
+}
+
+.header03 h2{
+    text-align: center;
+    color: #00f0ff;
+    font-size: 5em;
+    line-height: 1.5;
+    font-weight: bold;
+    padding: 20px 0 10px 0;
+}
+
+.welcome{
+    text-align: center;
+    color: #00f0ff;
+    font-size: 2.5em;
+    line-height: 1.8;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.header03 ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #00f0ff;
+    font-size: 2em;
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.header03 li{
+    height: 100px;
+    /* margin-left: 199px; */
+    background-repeat: no-repeat;
+    padding-top: 145px;
+}
+
+.player{
+    background-image: url("img/1-4.png");
+    width: 200px;
+    height: 106px;
+}
+
+.time{
+    width: 348px;
+    margin: 0 50px;
+    background-image: url("img/60-90.png");
+}
+
+.age{
+    width: 145px;
+    background-image: url("img/16+.png");
+    /* margin-left: 205px; */
+}
+
+.storyLong{
+    text-align: center;
+    color: #00f0ff;
+    font-size: 2.5em;
+    line-height: 1.8;
+    font-weight: 500;
+}
