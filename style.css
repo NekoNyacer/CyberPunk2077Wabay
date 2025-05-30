@@ -5,9 +5,8 @@ body{
         width:880px;
 }
 .header01{
-    width: 1200px;
-    height: 1570px;
     background-image: url("img/intro01.png");
+    background-size: 100% auto;
     margin: 0 auto;
     padding-top: 1085px;
     box-sizing: border-box;
