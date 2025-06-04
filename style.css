@@ -1,7 +1,11 @@
 @import url("reset.css");
 
+
+body{
+    margin: 0 auto;
+}
 .header01{
-  width: 700px;
+  width: 770px;
   aspect-ratio: 1200 / 4983;
   background-image: url('img/CP_01_game_Intro_08.png');
   background-size: contain;
@@ -9,6 +13,7 @@
   background-position: center top;
 
 }
+
 .header01 img{
     width: 600px;
     padding-top: 550px;
@@ -32,4 +37,36 @@
     font-weight: bold;
     line-height: 1.5;
     font-size: 1.5em;
+}
+
+
+@media (max-width: 768px){
+  .header01{
+    width: 390px;
+  }
+.header01 img{
+    width: 300px;
+    padding-top: 280px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.header01 h1{
+    color:#56b8d6; 
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.header01 h2{
+    padding-top: 15px;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 0.8em;
+}
+
 }
