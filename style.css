@@ -5,7 +5,7 @@ body{
     margin: 0 auto;
 }
 .header01{
-  width: 770px;
+  width: 750px;
   aspect-ratio: 1200 / 4983;
   background-image: url('img/CP_01_game_Intro_08.png');
   background-size: contain;
